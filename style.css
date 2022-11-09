@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* ----------header part start-------- */
+nav{
+    padding-top: 30px;
+    background-color: #BE0D4F;
+    padding-bottom: 25px;
+}
+nav label{
+    padding: 100px;
+}
+label {
+    font-size: 50px;
+}
+.header-menu{
+    float: right;
+    margin-right: 50px;
+    list-style: none;
+    display: flex;
+    margin-top: 25px;
+    
+}
+li a {
+    text-decoration: none;
+    margin-right: 100px;
+    font-size: 25px;
+    color: whitesmoke;
+}
+.food{
+    color: white;
+}
+/* ----------header part end-------- */
+/* ----------frist-part start-------- */
+.heading{
+    color: #BE0D4F;
+}
+.frist-section{
+    display: flex;
+    margin-bottom: 10%;
+    
+}
+.frist-part{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 60px;
+}
+.fst{
+    padding-top: 10%;
+}
+.frist-part img{
+    width: 100%;
+    padding-top: 3%; 
+}
+.frist-h1{
+    font-size: 70px;
+    color: gray;
+}
+.frist-p{
+    font-size: 23px;
+    padding-bottom: 40px;
+    color: gray;
+}
+.link-button{
+    padding: 15px 40px;
+    text-decoration: none;
+    background-image: linear-gradient( #BE0D4F,whitesmoke);
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 15px;
+}
+/* second part start */
+.second-class{
+    display: flex;
+    background-image: url(image/Frame\ pink.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 13%;
+}
+.second-part{
+    width: 50%;
+    padding-left: 8%;
+    padding-top: 5%
+}
+.snd{
+    padding-top: 10%;
+}
+
+.second-part img{
+    height: 555px;
+}
+/* second part end */
+
+
+/* thard part start recipe-post */
+.recipe{
+    text-align: center;
+    margin-bottom: 3%;
+}
+/* thard part end recipe-post */
+
+/* forth part start my-recipe  */
+.forth-part{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+.my-recipe{
+    width: 405px;
+    height: 570px;
+    text-align:start;
+    margin-left: 5%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+}
+
+.r-photo img{
+    width: 395px;
+    height: 276px;
+    margin: 5%;
+    padding: 35px;
+    padding-left: 1%;
+}
+
+.r-detail{
+    width: 337px;
+    height: 178px;
+    line-height: 25px;
+    margin: 5%;
+}
+
+.recipe-tittle{
+    font-size: 30px;
+}
+
+.recipe-peragraph{
+    font-size: 20px;
+}
+
+/* forth part rnd my-recipe  */
+
+/*  fifth part start */
+.fifth-parth{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 9%;
+    box-shadow: 10px 15px 50px gray;
+    width: 80%;
+    height: 236px;
+    padding: 1%;
+    margin-left: 12%;
+    border-radius: 25px;
+}
+
+.fith-class{
+    padding-right: 7%;
+    padding-left: 7%;
+}
+
+.p-m{
+    font-size: 7rem;
+}
+
+.p-n{
+    font-size: 30px;
+}
+/* fifth part end */
+
+/* six part submit area start */
+.submit{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: url(image/Frame\ pink.jpg);
+}
+
+.req{
+    font-size: 20px;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    color:black
+    
+}
+.int{
+    font-size: 15px;
+    height: 35px;
+    width: 370px;
+    padding: 5%;
+    border-radius: 20px;
+    border: none;
+}
+
+.bt{
+    height: 200px;
+    color: black;
+}
+
+.nt{
+    background-color:  #BE0D4F;
+    color: white;
+    font-weight: 600;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+/* six part submit area end */
+
+
+/* footer start*/
+.footer-end{
+    text-align: center;
+    background-color: black;
+    height: 250px;
+    padding-top: 65px;
+}
+.en{
+    font-size: 50px;
+}
+.ne{
+    font-size: 25px;
+    color:gainsboro;
+}
+.fo{
+    color: #BE0D4F;
+}.panda{
+    color: white;
+}
+/* footer end*/
